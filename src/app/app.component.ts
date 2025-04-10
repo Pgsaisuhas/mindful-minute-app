@@ -1,13 +1,20 @@
+// app.component.ts
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { NavigationComponent } from './components/navigation/navigation.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  imports: [RouterOutlet, NavigationComponent],
+  template: `
+    <app-navigation></app-navigation>
+    <div class="container mt-4">
+      <router-outlet></router-outlet>
+    </div>
+  `,
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'mindful-minute-app';
+  title = 'Mindful Minute App';
 }

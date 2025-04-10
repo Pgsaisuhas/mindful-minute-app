@@ -1,0 +1,21 @@
+/* home.component.css */
+.blockquote {
+  border-left: 3px solid #4a90e2;
+  padding-left: 1rem;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.bi {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  font-size: 2rem;
+  color: var(--primary-color);
+}

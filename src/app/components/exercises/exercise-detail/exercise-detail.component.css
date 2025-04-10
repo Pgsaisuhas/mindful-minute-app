@@ -1,0 +1,30 @@
+/* exercise-detail.component.css */
+.display-4 {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #4a90e2;
+}
+
+.list-group-item {
+  border-left: none;
+  border-right: none;
+  padding: 0.75rem 0;
+}
+
+.list-group-item:first-child {
+  border-top: none;
+}
+
+.list-group-item:last-child {
+  border-bottom: none;
+}
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}

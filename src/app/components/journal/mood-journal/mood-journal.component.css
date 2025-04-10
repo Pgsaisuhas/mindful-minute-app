@@ -1,0 +1,30 @@
+/* mood-journal.component.css */
+.form-check-input:checked {
+  background-color: #4a90e2;
+  border-color: #4a90e2;
+}
+
+textarea.form-control {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.badge {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-weight: 600;
+  color: #333;
+}
